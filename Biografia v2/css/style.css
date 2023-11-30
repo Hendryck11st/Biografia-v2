@@ -1,0 +1,75 @@
+/* Estilos para a biografia */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .biografia {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)), url(/images/blm.jpg) center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  .conteudo {
+    max-width: 600px;
+    padding: 20px;
+  }
+  
+
+  p {
+    font-size: 20px; /* Tamanho da fonte em pixels */
+  }
+  img {
+    margin: 20px; /* Adicionar margem ao redor da imagem */
+    width: 65%; /* Largura total do contêiner pai */
+    height: auto; /* Mantém a proporção original */  
+
+}
+  
+
+
+
+
+.header {
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.header h1 {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+}
+
+.nav {
+  margin-top: 10px;
+}
+
+.nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: #555;
+  font-family: Arial, sans-serif;
+}
+
+.nav ul li a:hover {
+  color: #000;
+}
+

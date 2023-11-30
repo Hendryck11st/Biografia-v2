@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Frases Aleatórias da Rosa Parks</title>
+</head>
+<link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-content">
+            <h1>Rosa Parks</h1>
+            <nav>
+                <ul>
+                    <li><a href="/pages/estrutura.html">Página Inicial</a></li>
+                    <li><a href="/pages/sobre.html"> Sobre </a></li>
+                    <li><a href="/pages/Frases.html">Frases Rosa parks</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="biografia">
+        <div class="conteudo">
+<body>
+  <button onclick="mostrarFrase()">Mostrar Frase da Rosa Parks</button>
+  <p id="frase"></p>
+</div>
+</div>
+  <script>
+    var frases = [
+      "Cada pessoa deve viver sua vida como um modelo para os outros.",
+      "Eu aprendi ao longo dos anos que quando a mente está decidida, isso permite acontecer coisas que normalmente não aconteceriam.",
+      "Você nunca deve ser limitado pelo que outras pessoas pensam.",
+      "Ninguém deve querer sua liberdade mais do que você mesmo."
+
+    ];
+
+    function mostrarFrase() {
+      var indice = Math.floor(Math.random() * frases.length);
+      var fraseSelecionada = frases[indice];
+
+      var fraseElement = document.getElementById("frase");
+      fraseElement.innerText = fraseSelecionada;
+    }
+  </script>
+   
+</body>
+</html>
